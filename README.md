@@ -31,7 +31,6 @@ The goal is to classify transactions as:
 ## 📈 Exploratory Data Analysis (EDA)
 - Analyzed data distribution  
 - Compared fraud vs normal transactions  
-- Visualization done by team member  
 
 ---
 
