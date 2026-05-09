@@ -1,4 +1,5 @@
 import pandas as pd
+import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import RobustScaler
@@ -33,3 +34,11 @@ print(classification_report(y_test, predictions))
 
 print("--- Confusion Matrix ---")
 print(confusion_matrix(y_test, predictions))
+
+# Save the model to a file
+joblib.dump(model, 'fraud_model.pkl')
+
+# Save the scaler
+joblib.dump(scaler, 'scaler.pkl')
+
+print("Model and Scaler saved successfully!")
