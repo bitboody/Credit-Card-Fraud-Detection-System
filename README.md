@@ -1,6 +1,12 @@
 # 💳 Credit Card Fraud Detection System
 ## IEEE Team 3 Final Project
 
+## 🖥️ Setup
+
+Download and extract the [Credit Card Fraud Detection Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) from kaggle.
+
+Make sure creditcard.csv is in the content/data directory.
+
 ## 📌 Project Overview
 Machine Learning project to detect fraudulent credit card transactions.
 
