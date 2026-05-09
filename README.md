@@ -1,12 +1,5 @@
-# Credit Card Fraud Detection System
-## IEEE Team 3 Final Project
-
-This repository contains a Machine Learning pipeline designed to identify fraudulent credit card transactions. Using a weighted Logistic Regression approach and Robust Scaling, the system is optimized to navigate the high class imbalance typical of financial fraud datasets.
-
---
-# Cridet-card-Fraud-Detection-system
-كشف الاحتيال في بطاقات الائتمان
 # 💳 Credit Card Fraud Detection System
+## IEEE Team 3 Final Project
 
 ## 📌 Project Overview
 Machine Learning project to detect fraudulent credit card transactions.
@@ -65,14 +58,12 @@ Matplotlib
 Seaborn
 -----
 🔮 Future Work
-Try advanced models (XGBoost, Neural Networks)
-Handle class imbalance (SMOTE / undersampling)
 Improve fraud detection performance
 Deploy as a web application (Streamlit / Flask)
 ----
 👥 Team Members
 Mostafa Rabea Raslan — Data Cleaning & Machine Learning
 Dana Ahmed Fattal - Data Cleaning & Machine Learning
-Abdelrahman Ahmed - Deployment
-Omar shakem - visualization
-Ali Ahmed Ali - presentation 
+Abdelrahman Ahmed - Deployment & Notebook polishing
+Omar shakem - Visualization
+Ali Ahmed Ali - Presentation
