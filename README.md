@@ -46,24 +46,43 @@ The goal is to classify transactions as:
 
 ### Classification Report:
 ```python
-from sklearn.metrics import classification_report
-print(classification_report(y_test, y_pred))
+--- Classification Report ---
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     56864
+           1       0.45      0.89      0.59        98
+
+    accuracy                           1.00     56962
+   macro avg       0.72      0.94      0.80     56962
+weighted avg       1.00      1.00      1.00     56962
+
+--- Confusion Matrix ---
+[[56756   108]
+[   11    87]]
 ---
-🛠 Tools Used
-Python
-Pandas
-NumPy
-Scikit-learn
-Matplotlib
-Seaborn
+```
+
+## 🛠 Tools Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+  
 -----
-🔮 Future Work
+## 🔮 Future Work
+
 Improve fraud detection performance
 Deploy as a web application (Streamlit / Flask)
+
 ----
-👥 Team Members
-Mostafa Rabea Raslan — Data Cleaning & Machine Learning
-Dana Ahmed Fattal - Data Cleaning & Machine Learning
-Abdelrahman Ahmed - Deployment & Notebook polishing
-Omar shakem - Visualization
-Ali Ahmed Ali - Presentation
+
+## 👥 Team Members
+
+- ***Mostafa Rabea Raslan** — Data Cleaning & Machine Learning*
+- ***Dana Ahmed Fattal** - Data Cleaning & Machine Learning*
+- ***Abdelrahman Ahmed** - Deployment & Notebook polishing*
+- ***Omar shakem** - Visualization*
+- ***Ali Ahmed Ali** - Presentation*
