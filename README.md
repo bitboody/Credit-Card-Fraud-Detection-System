@@ -17,8 +17,8 @@ The goal is to classify transactions as:
 ---
 
 ## 📊 Dataset
-- Credit Card Transactions Dataset  
-- Highly imbalanced dataset  
+- Credit Card Transactions Dataset
+- Highly imbalanced dataset
 - Target column: `Class`
 
 ---
