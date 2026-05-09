@@ -36,9 +36,9 @@ print("--- Confusion Matrix ---")
 print(confusion_matrix(y_test, predictions))
 
 # Save the model to a file
-joblib.dump(model, 'fraud_model.pkl')
+joblib.dump(model, 'models/fraud_model.pkl')
 
 # Save the scaler
-joblib.dump(scaler, 'scaler.pkl')
+joblib.dump(scaler, 'models/scaler.pkl')
 
 print("Model and Scaler saved successfully!")
